@@ -1,3 +1,8 @@
 # NPM related
 node_modules
 package-lock.json
+Dockerfile
+package.json
+hw1/notebook/ex1.js
+hw1/notebook/test.js
+hw1/notebook/.ipynb_checkpoints/
