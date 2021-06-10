@@ -5,6 +5,7 @@ COPY . /usr/project/hw1
 WORKDIR /usr/project/hw1
 
 RUN npm i
+RUN npm install ffprobe
 
 # final comand to run
 CMD npm run serve & jupyter notebook /usr/project --ip=0.0.0.0 --allow-root --NotebookApp.token='' --NotebookApp.password=''
