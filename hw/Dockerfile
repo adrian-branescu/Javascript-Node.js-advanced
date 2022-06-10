@@ -1,8 +1,8 @@
-FROM mihai1voicescu/badass-jupyter:latest
+FROM adrianbranescu93/jupyter-node:latest
 
-COPY . /usr/project/hw1
+COPY . /usr/project/hw
 
-WORKDIR /usr/project/hw1
+WORKDIR /usr/project/hw
 
 RUN npm i
 

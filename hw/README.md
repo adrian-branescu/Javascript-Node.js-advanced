@@ -1,4 +1,4 @@
-# Homework 1
+# Homework
 
 ## Dev environment
 
@@ -19,7 +19,7 @@ http://127.0.0.1:8888/
 
 You will find the first homework in Jupyter notebook at path:
 ```bash
-/hw1/notebook/Node.js Streams homework.ipynb
+/hw/notebook/Node.js Streams homework.ipynb
 ```
 
 In order to stop the container, run in another terminal:

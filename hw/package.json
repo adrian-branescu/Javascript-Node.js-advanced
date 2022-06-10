@@ -1,12 +1,12 @@
 {
-  "name": "hw1",
+  "name": "hw",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "docker build -t js-advanced-hw1 .",
-    "start": "docker run --name js-advanced-hw1 --rm -v \"$(pwd)\"/notebook:/usr/project/hw1/notebook -p 8888:8888 -p 5000:5000 -v /var/run/docker.sock:/var/run/docker.sock js-advanced-hw1",
-    "stop": "docker stop js-advanced-hw1",
+    "build": "docker build -t js-advanced-hw .",
+    "start": "docker run --name js-advanced-hw --rm -v \"$(pwd)\"/notebook:/usr/project/hw/notebook -p 8888:8888 -p 5050:5000 -v /var/run/docker.sock:/var/run/docker.sock js-advanced-hw",
+    "stop": "docker stop js-advanced-hw",
     "clean:deps": "rm -rf node_modules package-lock.json",
     "serve": "serve -s www",
     "test": "echo \"Error: no test specified\" && exit 1"
