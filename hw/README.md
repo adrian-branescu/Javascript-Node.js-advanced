@@ -1,7 +1,5 @@
 # Homework
 
-## Dev environment
-
 To run the homework, first you need to build the container image:
 ```bash
 npm run build
@@ -17,7 +15,7 @@ In order to access Jupyter notebooks, open in browser:
 http://127.0.0.1:8888/
 ```
 
-You will find the first homework in Jupyter notebook at path:
+You will find the homework in the Jupyter notebook at path:
 ```bash
 /hw/notebook/Node.js Streams homework.ipynb
 ```
