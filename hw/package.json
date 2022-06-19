@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "docker build -t js-advanced-hw .",
-    "start": "docker run --name js-advanced-hw --rm -v \"$(pwd)\"/notebook:/usr/project/hw/notebook -p 8888:8888 -p 5050:5000 -v /var/run/docker.sock:/var/run/docker.sock js-advanced-hw",
+    "start": "docker run --name js-advanced-hw --rm -v /notebook:/usr/project/hw/notebook -p 8888:8888 -p 5050:5000 -v /var/run/docker.sock:/var/run/docker.sock js-advanced-hw",
     "stop": "docker stop js-advanced-hw",
     "clean:deps": "rm -rf node_modules package-lock.json",
     "serve": "serve -s www",
